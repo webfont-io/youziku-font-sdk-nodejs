@@ -30,7 +30,7 @@ var youzikuFontClient = new youziku.youzikuFontClient("你的apiKey","http://loc
 ### 1.2 终身授权
 ``` node
 var youziku =require("youziku-font");
-var youzikuFontClient = new youziku.youzikuFontClient("youziku->disconnect","http://localhost:8092");
+var youzikuFontClient = new youziku.youzikuFontClient("disconnect","http://localhost:8092");
 ```
 
 ## 2.调用接口
