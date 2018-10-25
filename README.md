@@ -22,10 +22,17 @@ npm install youziku-font
 
 # 三、Sample
 ## 1.初始化youzikuFontClient
+### 1.1 按期授权
 ``` node
 var youziku =require("youziku-font");
 var youzikuFontClient = new youziku.youzikuFontClient("你的apiKey","http://localhost:8092");
 ```
+### 1.2 终身授权
+``` node
+var youziku =require("youziku-font");
+var youzikuFontClient = new youziku.youzikuFontClient("youziku->disconnect","http://localhost:8092");
+```
+
 ## 2.调用接口
 
 ### 2.1审核字体
