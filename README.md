@@ -10,7 +10,7 @@ SDK适用于在Nodejs中调用有字库独立部署系统中的字体管理服�
 1.审核字体 <br/>
 2.删除字体 <br/>
 3.更新字体 <br/>
-4.分页查看字体列表<br/>
+4.分页查看已审核的字体列表<br/>
 5.根据字体文件URL或font-family查询AccessKey<br/>
 6.查看字体列表总条数 <br/>
 
@@ -58,7 +58,7 @@ youzikuFontClient.updateFont({AccessKey:'xxx ',Url:'xxx.ttf'}).then(result=>{
  
 ```
 
-### 2.4分页查看字体列表
+### 2.4分页查看已审核的字体列表
 ``` node 
 const pageSize = 5;
 youzikuFontClient.getFontListPageCount(pageSize).then(a => {
