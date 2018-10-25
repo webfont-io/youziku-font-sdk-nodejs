@@ -1,0 +1,14 @@
+{
+  "name": "youziku-font",
+  "version": "6.0.0",
+  "description": "Youziku font sdk",
+  "main": "src/index.js",
+  "scripts": {
+    "test": ""
+  },
+  "author": "gaobingbing",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "*"
+  }
+}
